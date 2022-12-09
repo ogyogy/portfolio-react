@@ -1,4 +1,4 @@
-import GitHubIcon from '@mui/icons-material/GitHub'
+import GitHubIcon from '@mui/icons-material/GitHub';
 import {
   Box,
   Card,
@@ -7,8 +7,8 @@ import {
   Chip,
   IconButton,
   Stack,
-  Typography
-} from '@mui/material'
+  Typography,
+} from '@mui/material';
 
 function Works() {
   return (
@@ -164,8 +164,26 @@ function Works() {
           </CardActions>
         </Card>
       </Box>
+      <Box m={2}>
+        <Card sx={{ minWidth: 275 }}>
+          <CardContent>
+            <Typography variant='h5' component='div' mb={1.5}>
+              maze-generator
+            </Typography>
+            <Typography mb={1.5}>シンプルな迷路ゲーム。</Typography>
+            <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1}>
+              <Chip label='Go' />
+            </Stack>
+          </CardContent>
+          <CardActions>
+            <IconButton href='https://github.com/ogyogy/maze-generator'>
+              <GitHubIcon />
+            </IconButton>
+          </CardActions>
+        </Card>
+      </Box>
     </Box>
-  )
+  );
 }
 
-export default Works
+export default Works;
