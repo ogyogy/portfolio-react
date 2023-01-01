@@ -51,7 +51,7 @@ function Profile() {
               総合電機メーカー
             </Typography>
             <Typography>
-              SI事業のIoTシステム開発を担う部署で、AWSを活用したIoTサービス開発を担当。詳細設計からリリースまでの一連のフェーズを経験。
+              AWSを活用したIoTサービス開発を担当。詳細設計からリリースまでの一連のフェーズを経験。
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -68,7 +68,7 @@ function Profile() {
               非鉄金属メーカー
             </Typography>
             <Typography>
-              DX推進担当として、作業指示書作成支援システムの開発や画像処理技術の実証実験、組み合わせ最適化の研究など幅広い業務でアジャイル開発を経験。
+              情報システム部門でDX推進を担当。業務支援システムの開発や画像処理技術のPoC、組合せ最適化の研究など幅広い業務でアジャイル開発を経験。
             </Typography>
           </TimelineContent>
         </TimelineItem>
