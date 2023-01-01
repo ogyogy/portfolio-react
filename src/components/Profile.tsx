@@ -16,7 +16,7 @@ function Profile() {
       <Typography variant='h3' sx={{ fontWeight: 'bold' }}>
         Profile
       </Typography>
-      <Typography variant='h5'>Software engineer</Typography>
+      <Typography variant='h5'>Security architect</Typography>
       <IconButton href='https://github.com/ogyogy'>
         <GitHubIcon></GitHubIcon>
       </IconButton>
@@ -57,7 +57,7 @@ function Profile() {
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent color='text.secondary'>
-            2019 -
+            2019 - 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -70,6 +70,21 @@ function Profile() {
             <Typography>
               DX推進担当として、作業指示書作成支援システムの開発や画像処理技術の実証実験、組み合わせ最適化の研究など幅広い業務でアジャイル開発を経験。
             </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent color='text.secondary'>
+            2023 -
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant='h6' component='span'>
+              ITサービス企業
+            </Typography>
+            <Typography>TBD</Typography>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
