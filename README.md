@@ -13,7 +13,7 @@ npm install
 ## Usage
 
 ```python
-npm dev
+npm run dev
 ```
 
 ## License
