@@ -50,9 +50,7 @@ function Profile() {
             <Typography variant='h6' component='span'>
               総合電機メーカー
             </Typography>
-            <Typography>
-              AWSを活用したIoTサービス開発を担当。詳細設計からリリースまでの一連のフェーズを経験。
-            </Typography>
+            <Typography>AWSを活用したIoTサービス開発に従事。</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -68,7 +66,7 @@ function Profile() {
               非鉄金属メーカー
             </Typography>
             <Typography>
-              情報システム部門でDX推進を担当。業務支援システムの開発や画像処理技術のPoC、組合せ最適化の研究など幅広い業務でアジャイル開発を経験。
+              情報システム部門でDX推進に従事。業務支援システムの開発や画像処理の技術検証、組合せ最適化の研究などを担当。
             </Typography>
           </TimelineContent>
         </TimelineItem>
